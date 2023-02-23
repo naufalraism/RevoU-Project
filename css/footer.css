@@ -1,0 +1,17 @@
+.footer-content, .footer-left, .footer-right {
+    background-color: darkblue;
+}
+
+.footer-left {
+    padding-top: 10px;
+    margin-left: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer-right {
+    text-align-last: right;
+    color: white;
+    margin-right: 70px;
+    padding-bottom: 10px;
+}

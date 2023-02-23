@@ -1,0 +1,45 @@
+/* Navbar */
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+    float: left;
+}
+
+.navbar-right{
+  float: right;
+}
+
+.nav-link:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.nav-link.active {
+  background-color: darkblue;
+  color: white;
+}
+
+.navbar-content{
+    margin: 0%;
+}
+
+.navbar-logo{
+  margin: 10px;
+  margin-top: 2px;
+  margin-right: 750px;
+  width: 68px;
+  height: 65px;
+  margin-left: 15px;
+  float: left;
+  border-radius: 50%;
+}
+
+.navbar-item{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 8%;
+}
+/* Tutup Navbar */

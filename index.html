@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="assets/home.jpg">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>My Website</title>
+</head>
+<body>
+    <hr style="height:2px; border-width:0; background-color:black">
+
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <nav class="navbar">
+            <div class="navbar-content">
+                <a href="index.html">
+                    <img class="navbar-logo" src="assets/home.jpg" alt="Logo.jpg">
+                </a>
+            <div class="navbar-right">
+                    <a class="navbar-item nav-link active" href="index.html">Home</a>
+                    <a class="navbar-item nav-link" href="ourProfile.html">Our Profile</a>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Tutup Navbar -->
+
+    <hr style="height:2px; width:100%; background-color:black">
+
+    <div class="container">
+        <h2>Hi <span id="namaKamu"></span>, Welcome To Website</h2>
+        <script>
+            var namaKamu = prompt("Masukan nama kamu");
+            document.getElementById("namaKamu").innerText = namaKamu;
+                
+        </script>
+        <p>Ini adalah website buatan saya, Naufal Rais Majid</p>
+
+        <img class="image-content" src="assets/homeke2.jpg" alt="Home.jpg" width="1366" height="578">
+    </div>
+    
+    <hr style="height: 1px; background-color:black; margin-bottom: 3px;">
+    <hr style="height: 1px; background-color:black; margin-top: 3px;">
+
+    <div class="container">
+        <h2>Our Headquarter</h2>
+            <div class="columnContainer">
+                <div class="imageContainer">
+                    <img class="image1" src="assets/foto.jpg" alt="image1.jpg">
+                    <h4>Jakarta</h4>
+                </div>
+                <div class="imageContainer">
+                    <img class="image2" src="assets/foto2.jpg" alt="image2.jpg">
+                    <h4>Bandung</h4>
+                </div>
+                <div class="imageContainer">
+                    <img class="image3" src="assets/travel.jpg" alt="image3.jpg">
+                    <h4>Surabaya</h4>
+                </div>
+            </div>
+    </div>
+
+    <hr style="height: 1px; background-color:black; margin-top: 3px;">
+    <!-- Form -->
+    <div class="container">
+        <h2>Message Us</h2>
+        <div class="columnContainer">
+            <div class="form-section">
+                <form name="message-form" onsubmit="return validateForm()">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td><input type="text" placeholder="Nama" name="full-name"></td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Lahir</td>
+                            <td>:</td>
+                            <td><input type="date" name="birth-date"></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td><input type="radio" id="male" name="gender" value="Laki-laki">
+                                <label for="male">Laki-laki</label>
+                            <input type="radio" id="female" name="gender" value="Perempuan">
+                                <label for="female">Perempuan</label></td>
+                        </tr>
+                        <tr>
+                            <td>Pesan</td>
+                            <td>:</td>
+                            <td><textarea placeholder="Pesan" name="messages" cols="40" rows="3"></textarea> </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="form-output">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><span id="sender-full-name"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><span id="sender-birth-date"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><span id="sender-gender"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Pesan</td>
+                        <td>:</td>
+                        <td><span id="sender-messages"></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Penutup form -->
+<br><br>
+    <!--FOOTER-->
+    <!-- pembuka footer -->
+    <footer class="footer-content">
+        <div class="footer-left">
+            <h3>My Website</h3>  
+            <p>Ini adalah website yang telah selesai dibuat</p>
+        </div>
+        <div class="footer-right">
+            <p>Created by Naufal Rais Majid</p>
+        </div>
+    </footer>
+    <!-- Penutup footer -->
+</body>
+<script src="js/index.js"></script>
+</html>

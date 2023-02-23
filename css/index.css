@@ -1,0 +1,165 @@
+body {
+   background-color: whitesmoke; 
+   margin: 0%;
+   padding: 0%;
+   overflow-x: hidden;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 70px;
+}
+
+table {
+    margin-left: 70px;
+}
+
+.container {
+    margin-left: 70px;
+}
+
+.container p {
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.container h2 {
+    font-weight: bold;
+}
+
+.image-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image1, .image2, .image3 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.columnContainer {
+    display: flex;
+    flex-direction: row;
+}
+  
+.imageContainer {
+    flex-basis: 33%;
+    text-align: center;
+    background-size: cover;
+}
+input[type=text] {
+    width: 98%;
+    height: 25px;
+}
+
+input[type=date] {
+    width: 99%;
+    height: 25px;
+}
+
+input[type=submit] {
+    width: 460%;
+    height: 35px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: lightskyblue;
+    color: black;
+    cursor: pointer;
+}
+
+.form-output {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 608px) {
+    /* For mobile phones: Responsive*/
+    body {
+        width: 100%;
+        margin-right: -900px;
+        padding-right: -200px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .image1, .image2, .image3 {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    .image-content {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container {
+        margin-left: 70px;
+        font-size: small;
+    }
+
+    .columnContainer {
+        display: flex;
+        flex-direction: row;
+    }
+      
+    .imageContainer {
+        flex-basis: 33%;
+        text-align: center;
+        background-size: cover;
+    }
+    .container p {
+        font-family: sans-serif;
+        text-decoration: none;
+        margin-left: 70px;
+    }
+    
+    .container h2 {
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+        margin-left: 70px;
+    }
+    
+    table {
+        margin-left: 10px;
+    }
+
+    input[type=text] {
+        width: 98%;
+        height: 25px;
+    }
+    
+    input[type=date] {
+        width: 99%;
+        height: 25px;
+    }
+    
+    input[type=submit] {
+        width: 460%;
+        height: 35px;
+        background-color: darkblue;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    input[type=submit]:hover {
+        background-color: lightskyblue;
+        color: black;
+        cursor: pointer;
+    }
+  }

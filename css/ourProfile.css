@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke; 
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+ }
+ 
+ h2 {
+     font-family: sans-serif;
+     text-decoration: none;
+     font-weight: normal;
+     margin-left: 70px;
+ }
+ 
+ .container {
+     margin-left: 70px;
+ }
+ 
+ .container p {
+     font-family: sans-serif;
+     text-decoration: none;
+     margin-left: 70px;
+ }
+ 
+ .container h2 {
+     font-weight: bold;
+ }
+ 
+ .image-content {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ @media only screen and (max-width: 608px) {
+    /* For mobile phones: Responsive*/
+    body {
+        width: 100%;
+        background-color: whitesmoke; 
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+     }
+     
+     h2 {
+         font-family: sans-serif;
+         text-decoration: none;
+         font-weight: normal;
+         margin-left: 10px;
+     }
+     
+     .container {
+         margin-left: 10px;
+     }
+     
+     .container p {
+         font-family: sans-serif;
+         text-decoration: none;
+         margin-left: 10px;
+     }
+     
+     .container h2 {
+         font-weight: bold;
+     }
+     
+     .image-content {
+        height: 60%;
+        width: 60%;
+     }
+ }
